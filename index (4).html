@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PortaloTu - Servizi a domicilio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f8f9fa;
+    }
+
+    header {
+      background-color: #1e88e5;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .steps div {
+      background: white;
+      padding: 20px;
+      border-left: 5px solid #1e88e5;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #1e88e5;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    .service-card {
+      background: white;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PortaloTu</h1>
+    <p>Servizi a domicilio nella tua zona – consegne rapide e locali</p>
+  </header>
+
+  <section>
+    <h2>Come funziona</h2>
+    <div class="steps">
+      <div><strong>1.</strong> Seleziona la tua zona</div>
+      <div><strong>2.</strong> Scegli il servizio che ti serve</div>
+      <div><strong>3.</strong> Ricevilo comodamente a casa</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Servizi Offerti</h2>
+    <div class="services">
+      <div class="service-card">Consegna spesa</div>
+      <div class="service-card">Ritiro farmaci</div>
+      <div class="service-card">Servizi tecnici</div>
+      <div class="service-card">Assistenza anziani</div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contattaci</h2>
+    <p>Email: <a href="mailto:info@portalotu.it">info@portalotu.it</a></p>
+    <p><a href="https://wa.me/393331112222" target="_blank">Scrivici su WhatsApp</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 PortaloTu – Tutti i diritti riservati
+  </footer>
+
+</body>
+</html>
